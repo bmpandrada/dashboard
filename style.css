@@ -1,0 +1,32 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+    color: #fff;
+    background-color: #000000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.icons{
+    padding:.5em;
+}
+
+.dashtools{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 10%;
+    height: 100vh;
+    border: 1px solid red;
+    padding: 2em 1.5em;
+}
+
+.dashtools .dashheader{
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+.nav-list li{
+    list-style: none;
+}
